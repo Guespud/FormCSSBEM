@@ -1,0 +1,28 @@
+.login {
+  background-image: url("../../assets/images/background3.jpg");
+  display: flex;
+  position: initial;
+  background-size:cover;
+  width: 80%;
+  height: 80%;
+  border-radius: 0 0 600px 500px;
+  &__section {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    align-items: center;
+    padding: 130px 50px 264px 88px;
+    &--title {
+      font-size: 60px;
+      color: white;
+      text-shadow: -3px 3px 0 black;
+    }
+    &--subtitle {
+      margin-top: 10px;
+      font-size: 30px;
+      color: white;
+      text-shadow: -2px 3px 0 black;
+    }
+  }
+}

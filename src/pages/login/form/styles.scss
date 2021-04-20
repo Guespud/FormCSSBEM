@@ -1,0 +1,50 @@
+.form {
+  box-shadow: 2px 2px 5px 2px rgb(172, 171, 171);
+  background-color: white;
+  width: 400px;
+  height: 350px;
+  border-radius: 10%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  &__logo{
+    width: 50px;
+    margin-top: 20px;
+  }
+  &__container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    &--title {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+    &--input-container {
+      text-align: center;
+      &--input {
+        box-shadow: 2px 2px 5px 2px rgb(172, 171, 171);
+        border: solid 1px white;
+        color: black;
+        font-size: 16px;
+        height: 50px;
+        padding: 0px 20px;
+        width: 70%;
+        outline: none;
+      }
+    }
+    &--button {
+      margin-top: 30px;
+      width: 70%;
+      height: 45px;
+    }
+  }
+  .empresa{
+    display: flex;
+    justify-content: center; 
+    text-align:end; 
+    margin-top: 20px;
+    color: gray;
+  }
+}
