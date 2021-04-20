@@ -30,13 +30,10 @@
     &--title h2 {
       font-size: 25px;
       font-weight: 400;
+      color: dimgrey;
     }
-    &--button {
-      &--link {
-        margin-left: 2rem;
-        font-size: 2rem;
-        background: none;
-      }
+    &--button img{
+      margin-bottom: -5px;
     }
   }
 }

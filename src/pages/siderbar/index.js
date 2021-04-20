@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import * as FcIcons from "react-icons/fc";
-import { BiUserCircle } from "react-icons/bi";
-import {IoLogOutOutline} from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./data";
 import "./styles.scss";
@@ -18,9 +16,10 @@ const NavbarMenu = () => {
         <div className="navbar">
           <div className="navbar__menu">
             <div className="navbar__menu--button">
-            <Link to="#" className="navbar__menu--button--link">
-              <FcIcons.FcList onClick={showSidebar} />
-            </Link>
+            {/* <Link to="#" className="navbar__menu--button--link"> */}
+              {/* <FcIcons.FcList onClick={showSidebar} /> */}
+              <img src="https://img.icons8.com/carbon-copy/40/000000/menu.png" onClick={showSidebar}/>
+            {/* </Link> */}
             </div>
             <div className="navbar__menu--title">
             <h2 className="prueba-txt">Prueba Front-end </h2>
@@ -28,12 +27,12 @@ const NavbarMenu = () => {
           </div>
           <div className="navbar__usuario">
             <h2 className="navbar__usuario--user">
-              <BiUserCircle/>
-              Alejandro Guespud
+            <img src="https://img.icons8.com/carbon-copy/45/000000/user-male-circle.png"/>
+            &nbsp;Alejandro Guespud
             </h2>
             <Link to={`/`}>
               <button className="btn btn-link navbar__usuario--logout">
-                <IoLogOutOutline />
+              <img src="https://img.icons8.com/carbon-copy/35/000000/export.png"/>
               </button>
             </Link>
           </div>

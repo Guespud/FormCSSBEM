@@ -1,0 +1,7 @@
+.home{
+    background-color: rgb(139, 138, 138);
+    &__container{
+        display: flex;
+        flex-direction: column;
+    }
+}

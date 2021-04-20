@@ -1,0 +1,11 @@
+.filtro {
+  &__group {
+      display: flex;
+      flex-direction: row;
+      justify-content:space-evenly;
+    &--button button{
+        height: 40px;
+        width: 100px;
+    }
+  }
+}

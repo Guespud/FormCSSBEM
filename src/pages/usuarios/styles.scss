@@ -1,0 +1,12 @@
+.forms {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    &--usuarios {
+      background-color: white;
+    }
+    &--filtros {
+      background-color: white;
+    }
+  }
+}
