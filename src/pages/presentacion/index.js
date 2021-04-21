@@ -39,7 +39,7 @@ const Presentacion = () => {
                 <br></br>
                 <p>
                   <MDBIcon icon="quote-left" /> Mi nombre es Alejandro Guespud
-                  tecnólogo SENA en Análisis Y desarrollo de Software. día.{" "}
+                  tecnólogo SENA en Análisis Y desarrollo de Software.
                   <br></br>
                   <br></br>Mis habilidades de frontend son:<br></br>
                   <ul>
@@ -53,7 +53,7 @@ const Presentacion = () => {
                   <br></br>
                   Mis habilidades de base de datos son:
                   <ul>
-                    <li>✓ MySQL, PostgreSQL,✓ Firebase</li>
+                    <li>✓ MySQL,✓ PostgreSQL,✓ Firebase</li>
                   </ul>
                   <br></br>
                   Mis habilidades de CMS son:
