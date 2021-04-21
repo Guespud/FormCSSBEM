@@ -1,15 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { useHistory } from "react-router-dom";
-import { Spinner } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles.scss";
+import React, { useState } from "react";
 import Logo from "../../../assets/images/logo.png";
+import "./styles.scss";
 
-const FormLogin = () => {
+const FormLogin = ({ CambiarEstado }) => {
   const [user, setUser] = useState("");
   const [password, setPassword] = useState("");
-
-  const history = useHistory();
 
   return (
     <div className="form">
@@ -18,7 +13,7 @@ const FormLogin = () => {
         <h2 className="form__container--title">Inicio de Sesión</h2>
         <div className="form__container--input-container form-group">
           <input
-            className="form__container--input-container--input"
+            className="form__container--input-container--input--usuario"
             placeholder="Usuario"
             type="text"
             value={user}
@@ -28,7 +23,7 @@ const FormLogin = () => {
             }}
           />
           <input
-            className="form__container--input-container--input"
+            className="form__container--input-container--input--password"
             placeholder="Contraseña"
             type="password"
             value={password}
@@ -39,9 +34,7 @@ const FormLogin = () => {
           />
         </div>
         <button
-          onClick={() => {
-            history.push("/home");
-          }}
+          onClick={CambiarEstado}
           className="btn form__container--button btn-primary"
         >
           Iniciar sesión

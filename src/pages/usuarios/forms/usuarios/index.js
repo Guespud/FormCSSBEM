@@ -10,6 +10,10 @@ const UsuariosForm = () => {
 
   const [userList, setUserList] = useState([]);
 
+  const ModalClose = () => {
+    setLgShow(false);
+  };
+
   useEffect(() => {
     var ref = fire.database().ref("/usuarios");
     var dataArray = [];
@@ -90,7 +94,7 @@ const UsuariosForm = () => {
       >
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
-          <ModalUser />
+          <ModalUser ModalClose={ModalClose} />
         </Modal.Body>
       </Modal>
     </div>

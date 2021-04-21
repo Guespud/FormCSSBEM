@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Form, Group, Button } from "react-bootstrap";
 import "./styles.scss";
 
-const ModalUser = () => {
+const ModalUser = ({ ModalClose }) => {
   let db = fire.firestore();
   db.settings({});
   const history = useHistory();
@@ -147,7 +147,7 @@ const ModalUser = () => {
           <Button
             className="outline-primary"
             variant="outline-secondary"
-            onClick={handleClose}
+            onClick={ModalClose}
           >
             Cancelar
           </Button>
