@@ -1,0 +1,33 @@
+.filtro {
+    &--titulo {
+      text-align: center;
+      margin: 15px 0px;
+      color: gray;
+    }
+    &__container {
+      display: flex;
+      justify-content: center;
+      &--group {
+        width: 70%;
+        &--text {
+          font-size: 10px;
+          color: gray;
+        }
+        &--input {
+          width: 100%;
+  
+        }
+      }
+    }
+    &__group {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      &--button button {
+        margin: 10px 20px 20px 20px;
+        width: 80px;
+        font-size: 14px;
+      }
+    }
+  }
+  

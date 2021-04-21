@@ -40,15 +40,16 @@ const NavbarMenu = () => {
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
             <li className="navbar-toggle">
-              <Link to="#" className="menu-bars">
-                <FcIcons.FcList />
-              </Link>
+              <div className="row navbar-toggle--menu-bars">
+              <img src="https://img.icons8.com/small/40/ffffff/circled--v1.png" onClick={showSidebar}/>
+                <h2>OLSoftware</h2>
+              </div>
             </li>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>
-                    {item.icon}
+                    {item.icon}&nbsp;&nbsp;
                     <span>{item.title}</span>
                   </Link>
                 </li>

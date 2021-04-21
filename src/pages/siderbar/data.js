@@ -6,8 +6,8 @@ import * as RiIcons from "react-icons/ri";
 
 export const SidebarData = [
   {
-    title: "OLSoftware ",
-    path: "/administrativo",
+    title: "OLSoftware",
+    path: "#",
     icon: <FaIcons.FaCircle />,
     cName: "nav-text",
   },
@@ -37,7 +37,7 @@ export const SidebarData = [
   },
   {
     title: "usuario",
-    path: "/usuario",
+    path: "/home",
     icon: <BsIcons.BsFillPersonFill />,
     cName: "nav-text",
   },
