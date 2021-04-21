@@ -1,9 +1,9 @@
 import React from "react";
-import Presentacion from "../presentacion";
 import Sidebar from "../siderbar";
+import Forms from "../usuarios";
 import "./styles.scss";
 
-const Home = () => {
+const Pestaña = () => {
   return (
     <div className="home">
       <div className="home__container">
@@ -11,11 +11,11 @@ const Home = () => {
           <Sidebar />
         </div>
         <div className="home__container--forms">
-          <Presentacion/>
+          <Forms />
         </div>
       </div>
     </div>
   );
 };
 
-export default Home;
+export default Pestaña;
