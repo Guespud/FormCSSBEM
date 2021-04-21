@@ -26,7 +26,7 @@ const NavbarMenu = () => {
             </div>
           </div>
           <div className="navbar__usuario">
-            <h2 className="navbar__usuario--user">
+            <h2 id="user-nav" className="navbar__usuario--user">
             <img src="https://img.icons8.com/carbon-copy/45/000000/user-male-circle.png"/>
             &nbsp;Alejandro Guespud
             </h2>

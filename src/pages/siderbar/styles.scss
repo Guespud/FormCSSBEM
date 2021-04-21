@@ -32,7 +32,7 @@
       font-weight: 400;
       color: dimgrey;
     }
-    &--button img{
+    &--button img {
       margin-bottom: -5px;
     }
   }
@@ -108,4 +108,9 @@ span {
   text-align: left;
   margin-left: 5px;
   margin-bottom: -10px;
+}
+@media (min-width: 200px) and (max-width: 950px) {
+  #user-nav {
+    display: none;
+  }
 }
