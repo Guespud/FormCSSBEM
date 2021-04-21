@@ -1,12 +1,22 @@
 .forms {
   &__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 10px;
     &--usuarios {
       background-color: white;
+      border-radius: 2%;
     }
     &--filtros {
       background-color: white;
+      border-radius: 2%;
+
+      margin-right: -20px;
+    }
+    @media (min-width: 280px) and (max-width: 1279px) {
+      &--filtros {
+        margin-right: 0px;
+      }
     }
   }
 }

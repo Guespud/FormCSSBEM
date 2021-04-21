@@ -1,0 +1,27 @@
+.th__title {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+}
+
+.td__title {
+  font-size: 10px;
+  color: gray;
+}
+
+.usuario {
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+  &--title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  &--button button {
+    font-size: 12px;
+    width: 90px;
+  }
+}

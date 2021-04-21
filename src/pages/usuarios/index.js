@@ -6,11 +6,12 @@ import './styles.scss';
 const Forms = () => {
   return (
     <div className="forms">
-      <div className="forms__container">
-        <div className="col-md-8 forms__container--usuarios">
+      <div className="row forms__container">
+        <div className="col-md-9 col-sm-12 forms__container--usuarios">
           <UsuariosForm />
         </div>
-        <div className="col-md-4 forms__container--filtros">
+        &nbsp;
+        <div className="col-md-3 col-sm-12 forms__container--filtros">
           <Filtro />
         </div>
       </div>

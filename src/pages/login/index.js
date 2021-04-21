@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Login = () => {
   return (
     <>
-      <div className="login">
+      <div className="login" id="login-escritorio">
         <section className="login__section">
           <div className="col" id="contenedorTitulo">
             <div className="col-md-12">
@@ -27,6 +27,16 @@ const Login = () => {
             <FormLogin />
           </div>
         </section>
+      </div>
+      <div id="login-movil" className="movil">
+        <h1>Aplicación OLSoftware</h1>
+        <br></br>
+        <p>
+          Prueba práctica<br></br>Front-end senior
+        </p>
+        <div className="movil--login">
+          <FormLogin />
+        </div>
       </div>
     </>
   );
