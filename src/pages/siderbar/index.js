@@ -42,7 +42,7 @@ const NavbarMenu = () => {
             <li className="navbar-toggle">
               <div className="row navbar-toggle--menu-bars">
               <img src="https://img.icons8.com/small/40/ffffff/circled--v1.png" onClick={showSidebar}/>
-                <h2>OLSoftware</h2>
+                <h2>FORMBASIC</h2>
               </div>
             </li>
             {SidebarData.map((item, index) => {

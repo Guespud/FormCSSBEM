@@ -32,7 +32,7 @@ const Login = () => {
                   <h1 className="login__section--title">
                     Aplicación
                     <br />
-                    OLSoftware
+                    FORMBASIC
                   </h1>
                 </div>
                 <div className="col-md-12">
@@ -48,7 +48,7 @@ const Login = () => {
             </section>
           </div>
           <div id="login-movil" className="movil">
-            <h1>Aplicación OLSoftware</h1>
+            <h1>Aplicación FORMBASIC</h1>
             <br></br>
             <p>
               Prueba práctica<br></br>Front-end senior
